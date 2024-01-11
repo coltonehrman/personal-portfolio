@@ -24,11 +24,11 @@ jobs:
           node-version: ${{ matrix.node-version }}
           cache: "npm"
 
-      # Install
-      - run: npm ci
+      # # Install
+      # - run: npm ci
 
-      # Build
-      - run: npm run build --if-present
+      # # Build
+      # - run: npm run build --if-present
 
       # Create a local key file for SSH access
       - run: echo "${{ secrets.SSH_PRIVATE_KEY }}" > key.pem
