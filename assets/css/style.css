@@ -7797,7 +7797,7 @@ textarea:-ms-input-placeholder {
 }
 
 .box-wrapper .backto-top > div {
-  bottom: 45px;
+  bottom: 100px;
   right: 45px;
 }
 
@@ -17548,7 +17548,7 @@ span.sr-only {
 
 .backto-top > div {
   position: fixed;
-  bottom: 50px;
+  bottom: 100px;
   right: 30px;
   cursor: pointer;
   z-index: 999;
@@ -19538,7 +19538,7 @@ body.white-version .rn-btn-ulderline {
 }
 .white-version .backto-top > div {
   position: fixed;
-  bottom: 30px;
+  bottom: 100px;
   right: 30px;
   cursor: pointer;
   z-index: 999;
